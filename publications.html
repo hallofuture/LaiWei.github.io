@@ -68,12 +68,31 @@
             padding: 60px 40px;
         }
         
+        .page-header {
+            margin-bottom: 40px;
+        }
+        
         .page-title {
             font-size: 2.5em;
             color: #2c3e50;
-            margin-bottom: 40px;
+            margin-bottom: 15px;
             border-bottom: 3px solid #3498db;
             padding-bottom: 15px;
+        }
+        
+        .scholar-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        
+        .scholar-link:hover {
+            background-color: #357ae8;
         }
         
         /* Publications */
@@ -192,10 +211,15 @@
     
     <!-- Main Content -->
     <div class="container">
-        <h1 class="page-title">Publications</h1>
+        <div class="page-header">
+            <h1 class="page-title">Publications</h1>
+            <a href="https://scholar.google.com/citations?user=RKh9YAIAAAAJ&hl=en" target="_blank" class="scholar-link">
+                🎓 View My Google Scholar Profile
+            </a>
+        </div>
         
         <div class="pub-section">
-            <h2>Peer-Reviewed Journal Articles (Selected)</h2>
+            <h2>Peer-Reviewed Journal Articles</h2>
             
             <div class="publication-item">
                 <div class="pub-title">
@@ -268,18 +292,6 @@
                     The Journal of Physical Chemistry Letters 15, no. 10 (2024): 2841-2850
                 </div>
             </div>
-
-            <div class="publication-item">
-                <div class="pub-title">
-                    Polymorphism crystal structure predictionwith adaptive space group diversity control
-                </div>
-                <div class="pub-authors">
-                    Omee, Sadman Sadeed, <strong>Lai Wei</strong>, Sourin Dey, and Jianjun Hu
-                </div>
-                <div class="pub-venue">
-                    Advanced Science (2025): e10792
-                </div>
-            </div>
             
             <div class="publication-item">
                 <div class="pub-title">
@@ -289,13 +301,113 @@
                     Sadman Sadeed Omee, <strong>Lai Wei</strong>, Ming Hu, Jianjun Hu
                 </div>
                 <div class="pub-venue">
-                     Journal of materials Informatics 4, no. 2 (2024).
+                    Journal of Materials Informatics 4, no. 2 (2024)
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Polymorphism crystal structure prediction with adaptive space group diversity control
+                </div>
+                <div class="pub-authors">
+                    Sadman Sadeed Omee, <strong>Lai Wei</strong>, Sourin Dey, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    Advanced Science (2025): e10792
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Global mapping of structures and properties of crystal materials
+                </div>
+                <div class="pub-authors">
+                    Qinyang Li, Rongzhi Dong, Nihang Fu, Sadman Sadeed Omee, <strong>Lai Wei</strong>, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    Journal of Chemical Information and Modeling 63, no. 12 (2023): 3814-3826
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Material transformers: deep learning language models for generative materials design
+                </div>
+                <div class="pub-authors">
+                    Nihang Fu, <strong>Lai Wei</strong>, Yuqi Song, Qinyang Li, Rui Xin, Sadman Sadeed Omee, Rongzhi Dong, Edirisuriya M. Dilanga Siriwardane, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    Machine Learning: Science and Technology 4, no. 1 (2023): 015001
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Predicting Lattice Vibrational Frequencies Using Deep Graph Neural Networks
+                </div>
+                <div class="pub-authors">
+                    Nghia Nguyen, Steph-Yves V. Louis, <strong>Lai Wei</strong>, Kamal Choudhary, Ming Hu, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    ACS Omega 7, no. 30 (2022): 26641-26649
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Scalable deeper graph neural networks for high-performance materials property prediction
+                </div>
+                <div class="pub-authors">
+                    Sadman Sadeed Omee, Steph-Yves Louis, Nihang Fu, <strong>Lai Wei</strong>, Sourin Dey, Rongzhi Dong, Qinyang Li, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    Patterns 3, no. 5 (2022): 100491
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    DeepXRD, a Deep Learning Model for Predicting XRD spectrum from Material Composition
+                </div>
+                <div class="pub-authors">
+                    Rongzhi Dong, Yong Zhao, Yuqi Song, Nihang Fu, Sadman Sadeed Omee, Sourin Dey, Qinyang Li, <strong>Lai Wei</strong>, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    ACS Applied Materials and Interfaces 14, no. 35 (2022): 40102-40115
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    MaterialsAtlas.org: a materials informatics web app platform for materials discovery and survey of state-of-the-art
+                </div>
+                <div class="pub-authors">
+                    Jianjun Hu, Stanislav Stefanov, Yuqi Song, Sadman Sadeed Omee, Steph-Yves Louis, Edirisuriya MD Siriwardane, Yong Zhao, <strong>Lai Wei</strong>
+                </div>
+                <div class="pub-venue">
+                    npj Computational Materials 8, no. 1 (2022): 65
                 </div>
             </div>
         </div>
         
         <div class="pub-section">
-            <h2>Manuscripts Under Review</h2>
+            <h2>Book Chapters</h2>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Evolutionary Machine Learning in Science and Engineering
+                </div>
+                <div class="pub-authors">
+                    Jianjun Hu, Yuqi Song, Sadman Sadeed Omee, <strong>Lai Wei</strong>, Rongzhi Dong, Siddharth Gianey
+                </div>
+                <div class="pub-venue">
+                    In Handbook of Evolutionary Machine Learning, pp. 535-561. Singapore: Springer Nature Singapore (2023)
+                </div>
+            </div>
+        </div>
+        
+        <div class="pub-section">
+            <h2>Preprints & Manuscripts Under Review</h2>
             
             <div class="publication-item">
                 <div class="pub-title">
@@ -312,7 +424,6 @@
                 </div>
             </div>
             
-            
             <div class="publication-item">
                 <div class="pub-title">
                     CSPBench: a benchmark and critical evaluation of Crystal Structure Prediction
@@ -327,20 +438,40 @@
                     Under review at npj Computational Materials
                 </div>
             </div>
-        </div>
-        
-        <div class="pub-section">
-            <h2>Book Chapters</h2>
             
             <div class="publication-item">
                 <div class="pub-title">
-                    Evolutionary Machine Learning in Science and Engineering
+                    AlphaCrystal-II: Distance matrix based crystal structure prediction using deep learning
                 </div>
                 <div class="pub-authors">
-                    Jianjun Hu, Yuqi Song, Sadman Sadeed Omee, <strong>Lai Wei</strong>, Rongzhi Dong, Siddharth Gianey
+                    Yuqi Song, Rongzhi Dong, <strong>Lai Wei</strong>, Qin Li, Jianjun Hu
                 </div>
                 <div class="pub-venue">
-                    Handbook of Evolutionary Machine Learning, pp. 535-561. Springer Nature Singapore (2023)
+                    arXiv preprint arXiv:2404.04810 (2024)
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Data-Driven Topological Analysis of Polymorphic Crystal Structures
+                </div>
+                <div class="pub-authors">
+                    Sourin Dey, Nicholas Miklaucic, Sadman Sadeed Omee, Rongzhi Dong, <strong>Lai Wei</strong>, Qinyang Li, Nihang Fu, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    arXiv preprint arXiv:2508.10270 (2025)
+                </div>
+            </div>
+            
+            <div class="publication-item">
+                <div class="pub-title">
+                    Facet: highly efficient E(3)-equivariant networks for interatomic potentials
+                </div>
+                <div class="pub-authors">
+                    Nicholas Miklaucic, <strong>Lai Wei</strong>, Rongzhi Dong, Nihang Fu, Sadman Sadeed Omee, Qingyang Li, Sourin Dey, Victor Fung, Jianjun Hu
+                </div>
+                <div class="pub-venue">
+                    arXiv preprint arXiv:2509.08418 (2025)
                 </div>
             </div>
         </div>
